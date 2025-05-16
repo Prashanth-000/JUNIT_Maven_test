@@ -4,10 +4,6 @@ import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Combines room-booking logic and invoice-total calculation
- * (with negative-discount validation) in one class.
- */
 public class BusinessService {
 
     /* ---------- booking section ---------- */

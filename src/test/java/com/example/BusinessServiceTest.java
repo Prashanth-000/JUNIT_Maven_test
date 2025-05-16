@@ -42,10 +42,6 @@ public class BusinessServiceTest {
 
     /* -------- intentionally failing test ---------- */
 
-    /**
-     * ❌ This test is written WRONG on purpose so you can see a failure in the report.
-     * We “expect” 90 but the real answer is 105, so JUnit will flag it red.
-     */
     @Test
     void failingInvoiceExpectation() {
         BusinessService svc = new BusinessService();
